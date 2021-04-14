@@ -4,8 +4,6 @@
   "description": "Write crap and improve it overtime",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -16,16 +14,11 @@
   "author": "Juan A",
   "license": "MIT ",
   "devDependencies": {
-    "@types/node": "^14.14.21",
-    "@typescript-eslint/eslint-plugin": "^4.13.0",
-    "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "nodemon": "^2.0.7",
-    "prettier": "^2.2.1",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.1.3"
+    "prettier": "^2.2.1"
   },
   "bugs": {
     "url": "https://github.com/juandiegox21/pelipeland/issues"
