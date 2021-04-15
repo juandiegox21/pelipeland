@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/juandiegox21/pelipeland/issues"
   },
-  "homepage": "https://github.com/juandiegox21/pelipeland#readme"
+  "homepage": "https://github.com/juandiegox21/pelipeland#readme",
+  "dependencies": {
+    "eslint-plugin-jest": "^24.3.5"
+  }
 }
