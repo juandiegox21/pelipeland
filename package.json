@@ -4,6 +4,7 @@
   "description": "Write crap and improve it overtime",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -14,9 +15,11 @@
   "author": "Juan A",
   "license": "MIT ",
   "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   },
