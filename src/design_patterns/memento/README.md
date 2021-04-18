@@ -6,9 +6,9 @@ The memento pattern is implemented with three objects: the originator, a caretak
 
 # In this example
 
-Originator: Editor class
-Memento: EditorState class
-CareTaker: History class
+- Originator: Editor class
+- Memento: EditorState class
+- CareTaker: History class
 
 # To run the test
 npm test memento
