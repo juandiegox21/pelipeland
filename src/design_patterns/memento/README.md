@@ -6,6 +6,8 @@ The memento pattern is implemented with three objects: the originator, a caretak
 
 # In this example
 
+![Memento pattern uml](https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg)
+
 - Originator: Editor class
 - Memento: EditorState class
 - CareTaker: History class
