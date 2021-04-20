@@ -1,25 +1,25 @@
 import EditorState from './EditorState';
 
 class Editor {
-    constructor() {
-        this.content = '';
-    }
+  constructor() {
+    this.content = '';
+  }
 
-    createState() {
-        return new EditorState(this.content);
-    }
+  createState() {
+    return new EditorState(this.content);
+  }
 
-    restore(state) {
-        this.content = state.getContent();
-    }
+  restore(state) {
+    this.content = state.getContent();
+  }
 
-    getContent() {
-        return this.content;
-    }
+  getContent() {
+    return this.content;
+  }
 
-    setContent(content = '') {
-        this.content = content;
-    }
+  setContent(content = '') {
+    this.content = content;
+  }
 }
 
 export default Editor;
